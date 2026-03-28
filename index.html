@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan CSS</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Internal CSS -->
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #f4f4f4;
+        }
+
+        h1 {
+            text-align: center;
+            color: darkblue;
+        }
+
+        .identitas {
+            background: #ddd;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        .box-internal {
+            border: 2px dashed blue;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        /* Flexbox */
+        .flex-container {
+            display: flex;
+            gap: 10px;
+        }
+
+        .flex-item {
+            background: lightblue;
+            padding: 20px;
+            flex: 1;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- IDENTITAS -->
+    <div class="identitas">
+        <p>Nama: Nabil Wahdi</p>
+        <p>NIM: 2507411082</p>
+        <p>Kelas: TI 2B</p>
+    </div>
+
+    <h1>Belajar CSS</h1>
+
+    <!-- Inline CSS -->
+    <p style="color: red; font-weight: bold;">
+        Ini contoh Inline CSS
+    </p>
+
+    <!-- Internal CSS -->
+    <div class="box-internal">
+        Ini contoh Internal CSS
+    </div>
+
+    <!-- Flexbox -->
+    <div class="flex-container">
+        <div class="flex-item">Item 1</div>
+        <div class="flex-item">Item 2</div>
+        <div class="flex-item">Item 3</div>
+    </div>
+
+    <!-- Grid -->
+    <div class="grid-container">
+        <div class="grid-item">A</div>
+        <div class="grid-item">B</div>
+        <div class="grid-item">C</div>
+        <div class="grid-item">D</div>
+    </div>
+
+</body>
+</html>
