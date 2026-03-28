@@ -1,4 +1,4 @@
-/* ===== CSS TUTORIAL ===== */
+/* CSS Tutorial */
 
 /* 1. Selector */
 p {
@@ -30,20 +30,20 @@ body {
     background-color: #ffffff;
 }
 
-/* ===== CSS ADVANCED ===== */
+/* CSS Advanced */
 
-/* 1. Hover */
+/* Hover */
 .grid-item:hover {
     background: red;
     color: white;
 }
 
-/* 2. Transition */
+/* Transition */
 .grid-item {
     transition: 0.3s;
 }
 
-/* ===== RESPONSIVE ===== */
+/* Responsive */
 @media (max-width: 600px) {
     .flex-container {
         flex-direction: column;
